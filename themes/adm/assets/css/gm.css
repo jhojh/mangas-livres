@@ -1,0 +1,90 @@
+body{
+    background-color: #002244;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+/* Estiliza o contêiner principal */
+.container {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 80%; /* Aumenta a largura para acomodar a tabela */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+}
+
+/* Estiliza os títulos */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estiliza o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estiliza os rótulos dos campos */
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Estiliza os campos de entrada */
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estiliza o botão de envio */
+button {
+    background-color: #002244;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estiliza a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estiliza os cabeçalhos da tabela */
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Estiliza as células da tabela */
+td {
+    background-color: #333;
+    color: #fff;
+}

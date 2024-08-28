@@ -1,0 +1,115 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 100%;
+    align-items: center;
+    }
+
+    i:hover {
+      background-color: rgb(101, 104, 101);
+      border-radius: 5px;
+      padding: 5px;
+    }
+    .header-logo img {
+    max-width: 250px;
+    max-height: 220px;
+    cursor: pointer;
+    }
+    .nav-list{
+        display: flex;
+        align-items: center;
+        margin-right: 5%;
+    }
+    .nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    }
+    .nav-list li {
+        cursor: pointer;
+        padding: 10px;
+    }
+    li i{
+        font-size: 30px;
+    }
+    .search{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .search i{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .search input[type="text"]{
+        background-color: #FFF;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        padding: 5px;
+
+    }
+    
+    .footer {
+        width: 100%; 
+        background-color: #1a1a1a; 
+        color: #fff; 
+        margin-top: 5%;
+        border-radius: 10px;
+       
+      }
+      
+      .footer-container {
+        max-width: 1200px; 
+        margin: 0 auto; 
+        padding: 15px;
+         
+      }
+      
+      .footer-content {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        
+      }
+      
+      .footer-logo img {
+        max-width: 120px; 
+        border: solid 2px;
+        border-radius: 360px;
+        
+      }
+      .footer-logo{
+        margin-right: 10px;
+      }
+      .footer-social ul {
+        list-style: none; 
+        padding: 0;
+        margin: 0; 
+      }
+      
+      .footer-social ul li {
+        display: inline-block; 
+        margin-right: 10px; 
+      }
+      
+      .footer-social ul li:last-child {
+        margin-right: 0; 
+      }
+      
+      .footer-social ul li a {
+        color: #fff; 
+        font-size: 20px; 
+      }
+      
+      .footer-bottom {
+        text-align: center; 
+        margin-top: 20px; 
+      }
+      
+      .footer-bottom p {
+        margin: 0; 
+        font-size: 14px; 
+      }
+      

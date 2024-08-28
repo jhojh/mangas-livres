@@ -1,0 +1,89 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: #002244;
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGR2cjRmdGs1bHR2ZjV3ejZ2eHR5a3dib2lpNXM5cm95NXdpYjN2NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jaOXKCxtBPLieRLI0c/giphy.gif");
+    background-size: cover;
+  }
+
+html{
+    font-family: 'Times New Roman', Times, serif;;
+    font-size: 20px;
+}
+span {
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 100vh;
+}
+.form-login{
+    display: flex;
+    background-color: #ffffff;
+    justify-content:center;
+    padding: 20px;
+    box-shadow: 0 0 30px ;
+    transform: scale(1.00);
+    transition: transform ease 0.5s;
+    border-radius: 10px;
+    width: 60%;
+    
+}
+.form-img img{
+    display:  flex;
+    margin-right: 50px;
+    max-width: 250px;
+    max-height: 250px;
+    
+    
+}
+.form-img{
+    margin-right: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+}
+form span{
+    margin-bottom: 5%;
+}
+form input[type="email"],[type="password"] {
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+}
+form input[type="submit"]{
+    width: 100%;
+    background-color:#3325f5;
+    border: none;
+    color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+  

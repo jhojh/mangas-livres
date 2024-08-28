@@ -1,0 +1,116 @@
+.profile {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #002244;
+  }
+  
+  #profile-container {
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: #1A1A1A;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+    color: white;
+  }
+  
+  #header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #left-section {
+    display: flex;
+    float: left;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  
+  #user-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  
+  #change-photo-btn {
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .formphoto{
+    
+    text-align: justify;
+  }
+  .formphoto input[type="file"]{
+    border: #111111 solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  form input[type="text"]{
+    border: #111111 solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .logout{
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10%;
+    border-radius: 5px;
+    width: 40%;
+  }
+  .trocar{
+    display: flex;
+    flex-direction: column;
+  }
+  .trocanome{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 2%;
+  }
+  
+  #user{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  #right-section {
+    float: right;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .shopping h1{
+    font-size: 19px;
+  }
+  
+  .errormensage{
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .inp_pesquisa{
+    font-family: sans-serif;
+  }
